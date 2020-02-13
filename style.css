@@ -6,13 +6,13 @@ body{
     vertical-align: middle;
 }
 html{
-    background: radial-gradient( aqua, teal, black);
+    background: radial-gradient( lightblue, seagreen, gray);
     color: white;
     height: 100%;
     text-align: center;
 }
 input{
-    background-color: rgb(233, 164, 16);
+    background-color: marine;
     color: indigo;
     border: 2px solid  indigo;
     box-shadow: indigo 3px 3px 3px;
@@ -20,8 +20,8 @@ input{
 }
 
 button{
-    background-color: rgb(219, 146, 50);
-    color:  (41, 23, 0);
+    background-color: mediumaquamarine;
+    color:  green;
     border: 2px solid  black;
     margin: 2px;
     font-size: 15px;
@@ -31,4 +31,9 @@ form, p{
     color:rgb(236, 178, 71);
     font-size: 20px;
     text-shadow: black 2px 2px 2px;
+}
+h1{
+    background: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+    color: antiquewhite;
+    font-size: 50px;
 }
